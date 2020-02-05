@@ -8,6 +8,7 @@ namespace EProv_Del2_GustavJonsson
 {
     class ContrabandCar : Car
     {
+        //Simple constructor that follows the project guideline.
         public ContrabandCar()
         {
             passangers = randomgenerator.Next(1, 5);

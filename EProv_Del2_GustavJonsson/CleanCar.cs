@@ -8,6 +8,7 @@ namespace EProv_Del2_GustavJonsson
 {
     class CleanCar : Car
     {
+        //Simple constructor that follows the project guideline.
         public CleanCar()
         {
             passangers = randomgenerator.Next(1, 4);
